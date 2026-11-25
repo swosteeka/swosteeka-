@@ -1,0 +1,90 @@
+*{
+                margin:0px;
+                padding:0px;
+            }
+            #nav_bar{
+                background-color: rgb(19, 167, 172);
+            }
+            #nav_bar a{
+                color:burlywood;
+                margin-left: 20px;
+                text-decoration: none;
+            }
+            #nav_bar a:hover{
+                background-color: rgb(15, 58, 96);
+            }
+            #slider{
+                height: 150px;
+                width: 100%;
+                background-color: rgb(14, 131, 131);
+            }
+            .container{
+                height: 253px;
+                width: 100%;
+                background-color: rgb(201, 126, 166);
+                display: flex;
+                gap: 160px;
+            }
+            .product{
+                width: 275px;
+                height: 250px;
+                background-color: rgb(138, 82, 15);
+                border: 2px solid rgb(138, 23, 23);
+            }
+            .product img{
+                height:100px;
+            }
+            footer{
+                height: 30px;
+                width: 100%;
+                background-color: rgb(56, 56, 66);
+                color: rgb(14, 90, 156);
+            }
+            #login_form{
+                background-color: rgb(42, 11, 127);
+                color: rgb(13, 75, 128);
+                width: 300px;
+                margin: 150px;
+                padding: 50px;
+                text-align: center;
+                font-size: x-large;
+                font-family: 'Courier New', Courier, monospace;
+                border: 2px solid rgb(76, 8, 140);
+                border-radius: 5px;
+                box-shadow: 10px 10px 10px rgb(96, 16, 166);
+            }
+            #login_form input{
+                padding: 5px;
+                margin-top: 10px;
+            }
+            #submitbtn{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: rgb(72, 6, 133);
+            }
+
+            #my_table {
+             border-collapse: collapse;
+             width: 100%;
+             }
+             #my_table th {
+              background-color: rgb(19, 167, 172);
+              color: white;
+             }
+
+            #my_table td {
+             background-color: burlywood;
+             }
+
+             #my_table tr:nth-child(even) td {
+             background-color: lightgray;
+           }
+
+            #my_table th,
+            #my_table td {
+          border: 1px solid black;
+            padding: 8px;
+           }
+
+           #my_table tr:hover {
+            background-color: rgb(15, 58, 96);
+            }
